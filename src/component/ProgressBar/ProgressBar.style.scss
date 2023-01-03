@@ -15,6 +15,7 @@
     height: 5px;
     background-color: var(--primary-base-color);
     border-radius: 50rem;
+    width: 0;
 }
 
 .progress-step{
@@ -42,7 +43,7 @@
     animation: progress 0.5s forwards;
 }
 
-bubble-animation{
+.bubble-animation{
     animation: bubble 0.5s 0.5s forwards;
 }
 

@@ -106,7 +106,8 @@ export class Checkout extends PureComponent {
             url: '/success',
             progressBarTag: 'Success',
             objectTag: DETAILS_STEP,
-            render: this.renderDetailsStep.bind(this),
+            // render: this.renderDetailsStep.bind(this),
+            render: null,
             areTotalsVisible: false
         }
     };
